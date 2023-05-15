@@ -8,7 +8,7 @@ _start:
     mov rdx, 14
     lea rsi, [hello_world]
     syscall
-    
+
     //sys_exit
     mov rax, 60
     mov rdi, 0
